@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(rgb(77, 56, 128),rgb(51, 51, 97));
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #eee;
+  padding: 30px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.square{
+  height: 30px;
+  width: 30px;
+  padding: 7px;
+}
+
+.board-row{
+  max-height: 30px;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
